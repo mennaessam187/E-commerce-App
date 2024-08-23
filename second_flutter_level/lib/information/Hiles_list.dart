@@ -1,0 +1,162 @@
+import 'package:flutter/material.dart';
+import 'package:second_flutter_level/constant_color.dart';
+
+class Hils {
+  String? image;
+  String? Title;
+  String? SubTitle;
+  String? Price;
+  Color? firstColor;
+  Color? secondColor;
+  int? size1;
+  int? size2;
+  int? size3;
+  int? size4;
+  Hils({
+    required this.Price,
+    required this.SubTitle,
+    required this.Title,
+    required this.image,
+    required this.firstColor,
+    required this.secondColor,
+    this.size1,
+    this.size2,
+    this.size3,
+    this.size4,
+  });
+}
+
+List<Hils> list2 = [
+  Hils(
+    Price: "150",
+    SubTitle: "this is perfect",
+    Title: "Clasic Shoes ",
+    image: "images/woman1.jpeg",
+    firstColor: colormanager.brawn,
+    secondColor: colormanager.white,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "200",
+    SubTitle: "this is perfect",
+    Title: "Accesories",
+    image: "images/h10.jpeg",
+    firstColor: colormanager.red,
+    secondColor: colormanager.green,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "150",
+    SubTitle: "this is",
+    Title: "Dress",
+    image: "images/h3.jpeg",
+    firstColor: colormanager.black,
+    secondColor: colormanager.orange,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "150",
+    SubTitle: "this is",
+    Title: "Shoes",
+    image: "images/h4.jpeg",
+    firstColor: colormanager.gray,
+    secondColor: colormanager.green,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "150",
+    SubTitle: "this is perfect",
+    Title: "Watch",
+    image: "images/h5.jpeg",
+    firstColor: colormanager.red,
+    secondColor: colormanager.white,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "200",
+    SubTitle: "this is",
+    Title: "Watch",
+    image: "images/h6.jpeg",
+    firstColor: colormanager.red,
+    secondColor: colormanager.white,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "700",
+    SubTitle: "this is",
+    Title: "Plause",
+    image: "images/h7.jpeg",
+    firstColor: colormanager.red,
+    secondColor: colormanager.white,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "700",
+    SubTitle: "this is",
+    Title: "Plause",
+    image: "images/h8.jpeg",
+    firstColor: colormanager.red,
+    secondColor: colormanager.white,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "700",
+    SubTitle: "this is",
+    Title: "Plause",
+    image: "images/h9.jpeg",
+    firstColor: colormanager.red,
+    secondColor: colormanager.white,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "700",
+    SubTitle: "this is",
+    Title: "Plause",
+    image: "images/h10.jpeg",
+    firstColor: colormanager.red,
+    secondColor: colormanager.white,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+  Hils(
+    Price: "700",
+    SubTitle: "this is",
+    Title: "Plause",
+    image: "images/h11.jpeg",
+    firstColor: colormanager.red,
+    secondColor: colormanager.white,
+    size1: 28,
+    size2: 38,
+    size3: 41,
+    size4: 35,
+  ),
+];
